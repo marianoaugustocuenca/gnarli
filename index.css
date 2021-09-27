@@ -1,0 +1,39 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-size: 24px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.fondo {
+    align-content: stretch;
+    border: solid blue 3px;
+    background-color: red;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: safe;
+    color: white;
+}
+
+
+li:hover {
+    font-weight: bold;
+}
+
+.pilares {
+    display: flexbox;
+    background-color: green;
+    flex-direction: row;
+}
+
+.foto {
+    height: auto;
+    width: 25%;
+}
+
